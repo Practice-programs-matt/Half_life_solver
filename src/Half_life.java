@@ -21,6 +21,7 @@ public class Half_life {
 		System.out.println("What was the original mass?");
 		Double og_mass = scan.nextDouble();
 		
+		
 		System.out.println("How much time has passed?");
 		Double time = scan.nextDouble();
 		

@@ -9,6 +9,7 @@ public class Question {
 		System.out.println("Enter the type of information you are trying to determine. Key:\nhl = Half Life");
 		String input = scan.nextLine();		
 		
+		
 		if (input.equalsIgnoreCase("mass"))
 		{
 			Mass.ask();
