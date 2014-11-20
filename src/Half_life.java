@@ -10,6 +10,7 @@ public class Half_life {
 		double half_life = (time*Math.log(2) / (Math.log(og_mass/current_mass)));
 		
 		System.out.println("The half life is " + half_life);
+		Question.finish();
 	}
 	
 	public static void ask()
@@ -28,6 +29,8 @@ public class Half_life {
 		
 		solve(og_mass,time,current_mass);
 	}
+	
+	
 	
 	
 }

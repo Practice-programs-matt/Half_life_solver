@@ -22,4 +22,24 @@ public class Question {
 			Half_life.ask();
 		}
 	}
+	
+	public static void finish()
+	{
+		System.out.println("Do you want to enter another problem. [Y/N] ?>>>>>>>>>>>>");
+		
+		Scanner scan = new Scanner(System.in);
+		String input = scan.nextLine();	
+		
+		if (input.equalsIgnoreCase("y"))
+		{
+			Question.ask();
+		}
+		else 
+		{
+			System.out.println("Good Bye");
+		}
+		
+		
+	}
+	
 }
