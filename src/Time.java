@@ -1,8 +1,7 @@
+import java.util.Scanner;
+
 
 public class Time {
 
-	public static void ask()
-	{
-		
-	}
+	
 }
